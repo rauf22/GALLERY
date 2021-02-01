@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    padding: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.slide img {
+  width: 100%;
+  pointer-events: none;
+}
+
+@import 'btn';
+@import 'gallery';

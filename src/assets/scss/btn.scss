@@ -1,0 +1,52 @@
+.btn {
+  font-family: inherit;
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: white;
+
+  background: #121212;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 3em;
+  transition: background-color 0.2s linear;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &--red {
+    background-color: red;
+    box-shadow: 0 7px 17px -10px rgba(red, 0.3);
+
+    &:hover,
+    &:focus {
+      background-color: darken(red, 5%);
+    }
+  }
+
+  &--blue {
+    background-color: blue;
+    box-shadow: 0 7px 17px -10px rgba(blue, 0.3);
+
+    &:hover,
+    &:focus {
+      background-color: darken(blue, 5%);
+    }
+  }
+
+  &--rounded {
+    border-radius: 0.41em;
+  }
+
+  &--sm {
+    padding: 0.66em 1.25em;
+  }
+}
