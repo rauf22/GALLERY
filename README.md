@@ -4,7 +4,7 @@ To install, you need to download, unpack, go to the application directory and ru
 
 Then run the "gulp".
 
-There is a way to change options at the end of the app.js file.
+There is a way to change options at the end of the assets/js/app.js file.
 
 By default they are as shown below:
 
