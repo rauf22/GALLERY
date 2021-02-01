@@ -1,4 +1,4 @@
-This component of the carousel works on mobile and desktop.
+ see how it works here: https://rauf22.github.io/GALLERYDIST/  This component of the carousel works on mobile and desktop. 
 
 To install, you need to download, unpack, go to the application directory and run "npm i".
 
